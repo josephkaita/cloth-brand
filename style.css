@@ -1,0 +1,189 @@
+
+.con-1{
+    margin-left: 40px !important;
+    justify-content: space-around !important;
+}
+
+.curr-tab{
+    background-color: black;
+    height: 32px;
+    position: relative;
+}
+.usd{
+    color: rgb(110, 90, 61);
+    background-color: #000000;
+    font-size: x-small;
+    border: none;
+}
+.nav-bar{
+    position: sticky !important;
+}
+.home{
+background-image: url(./jolbalaa2.jpg) !important;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 600px;
+margin-top: 10px !important;
+}
+.hf{
+    color: black;
+}
+.h-tx{
+    justify-content: space-around;
+}
+.tx-h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px !important;
+    width: 500px !important;
+    color: rgb(187, 152, 107);
+
+}
+.tx-p{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+     font-family: 'Courier New', Courier, monospace !important;
+}
+.butt{
+    border: none !important;
+    color: black;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: x-small;
+    width: 90px;
+    height: 20px;
+    border-radius: 30px;   
+}
+.butt:hover{
+    width: 95px;
+    background-color: black;
+    color: white;
+}
+.prod-con{
+    height: 600px !important;
+}
+.crd-1, .crd-2, .crd-3, .crd-4{
+    width: 300px !important;
+    margin: 0 auto;
+}
+.butt-2{
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-size: small;
+    width: 130px;
+    height: 35px;
+    border: none;
+    align-self: center !important;
+}
+.butt-2:hover{
+    width: 138px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.crd-t1, .crd-t2, .crd-t3, .crd-t4{
+    font-size: smaller;
+}
+.lt-con{
+    background-color: rgb(24, 8, 8);
+    height: 500px; 
+    color: white;
+}
+.lt2-con{
+    font-size: x-small;
+    padding-top: 250px;
+    
+}
+.a1, .a2, .a3{
+    text-decoration: none !important;
+    color: white !important;
+    justify-content: space-between !important;
+    padding-left: 60px !important;
+}
+.butt-3{
+    color: white;
+    background-color: black;
+    font-size: small;
+    width: 130px;
+    height: 35px;
+    border: none;
+}
+.lt1-con{
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ } 
+ .lt-p{
+     font-size: x-small;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+@media(min-width: 320px){
+    .home{
+        height: 500px;
+    }
+    .crd-1, .crd-2, .crd-3, .crd-4{
+        width: 157px !important;
+        justify-content: center !important;
+    }
+    .prod-con{
+        background-color: white;
+        height: 800px !important;
+    }
+    .tx-h1{
+        font-size: 50px !important;
+        width: 300px !important;
+    }
+  
+}
+
+@media(max-width: 320px){
+    .tx-h1{
+        font-size: 20px !important;
+        
+    }
+}
+@media(max-width: 240px){
+    .tx-h1{
+        font-size: 19px !important;
+    }
+}
+
+@media(min-width: 520px){
+    .tx-h1{
+        width: 0px !important;
+        font-size: 40px !important;
+        padding-top: 40px !important;
+    }   
+}
+@media(min-width: 628px){
+    .prod-con{
+        height: 450px !important;
+    }
+}
+@media(min-width: 800px){
+    .crd-1, .crd-2, .crd-3, .crd-4{
+        width: 200px !important;
+    }
+    .prod-con{
+        height: 500px !important;
+    }
+    .lt1-con{
+        font-size: xx-large;
+        
+     } 
+     .lt-p{
+         font-size: medium;
+     }
+     .tx-h1{
+        font-size: 80px !important;
+        width: 700px !important;
+    
+    }
+}
+@media(min-width: 1000px){
+    .crd-1, .crd-2, .crd-3, .crd-4{
+        width: 250px !important;
+    }
+    .prod-con{
+        height: 580px !important;
+    }
+}
